@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(17, 33, 80);
+}
+
+h1 {
+    color: rgb(246, 246, 215);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 2.5rem;
+}
+
+.up {
+    padding-bottom: 50px;
+}
+
+.col {
+    padding: 0 2.5% 0;
+    text-align: center;
+    font-size: 700%;
+    font-family: 'Handjet', cursive;
+}
+
+.green {
+    background-color: green;
+    float: right;
+}
+
+.red {
+    background-color: red;
+    
+}
+
+.yellow {
+    background-color: yellow;
+    float: right;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(20, 20, 20);
+    color: rgba(0, 0, 0, 0.25);
+}
+
+#start-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    background-color: rgb(255, 204, 0); /* Yellow-like tone */
+    color: rgb(20, 20, 20);
+    border: 5px solid rgb(20, 20, 20);
+    border-radius: 15px;
+    box-shadow: 4px 4px 0px #000;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#start-btn:hover {
+    background-color: rgb(255, 229, 80);
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 0px #000;
+}
